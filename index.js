@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { AblyProvider, useChannel } from 'ably/react';
 import Ably from 'ably/promises';
 
-const ably = new Ably.Realtime({ key: 'YOUR_ABLY_API_KEY', clientId: 'anon' });
+const ably = new Ably.Realtime({ key: ' lVA-Ww.euAtyw:E6oSsLx8M_AC2tN8kF2mLZ-YWmi3FJiE_a1b7vzCIYY ', clientId: 'anon' });
 
 export default function ChatApp() {
   const [username, setUsername] = useState('');
